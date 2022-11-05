@@ -6,18 +6,21 @@
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
+  
   "test": {
     "username": "postgres",
     "password": "krinapatel2304",
     "database": "wd-todo-test",
     "host": "127.0.0.1",
     "dialect": "postgres"
+
   },
   "production": {
-    "username": "root",
+    "username": "postgres",
     "password": "krinapatel2304",
-    "database": "database_production",
+    "database": "wd-todo-test",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "postgres"
+  
   }
 }
