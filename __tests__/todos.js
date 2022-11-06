@@ -72,20 +72,7 @@ describe("Todo Application", function () {
   });
 
   test("Deletes a todo with the given ID if it exists and sends a boolean response", async () => {
-    
-    const Employee = {
-      firstname: 'John',
-      lastname: 'Doe'
-    };
-    
-    console.log(Employee.firstname);
-    // expected output: "John"
-    
-    delete Employee.firstname;
-    
-    console.log(Employee.firstname);
-    // expected output: undefined
-    
-    
+    // FILL IN YOUR CODE HEAR
   });
+
 });
