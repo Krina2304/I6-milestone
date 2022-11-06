@@ -1,9 +1,9 @@
-const { Require, response } = require('express')
 const express = require('express');
 const app = express()
-const { Todo } = require("./models")
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
+
+const { Todo } = require("./models")
 
 app.get("/todos", (request, response) => {
   console.log("Todo list")
